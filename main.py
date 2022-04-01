@@ -49,6 +49,9 @@ def get_list_of_files(directory) -> list:
 
 
 if __name__ == '__main__':
+    # TODO
+    # 1. Replace processed files to another directory
+    # 2. Refactor code to airflow version
 
     directory_to_process = config.DATA_DIRECTORY
     files_to_process = get_list_of_files(directory_to_process)
